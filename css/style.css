@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../images/banner/banner1.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.header div,
+.previous-failure div {
+    width: 50%;
+    padding: 20px 100px;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.positive-mindset {
+    background-image: linear-gradient(to right, rgb(255, 0, 0, .30), rgb(241, 241, 9, .1)), url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 100px;
+    padding: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+.header-text {
+    width: 40%;
+
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(180, 123, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.previous-failure {
+    display: flex;
+    align-items: center;
+}
+
+.previous-failure img {
+    padding: 100px;
+}
